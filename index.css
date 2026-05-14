@@ -10,7 +10,7 @@ p#unico-1 {
 p {
     color: red;
 }   */
-
+/*
 header {
     border: 1px solid red;
 
@@ -36,4 +36,22 @@ p {
 span{
     border: 1px solid pink;
     display: block;
+} */
+
+body{
+    background: black;
+}
+
+h1{
+    border: 1px solid white;
+    background: brown;
+}
+
+p{
+    border: 1px solid white;
+    background: brown;
+}
+
+img{
+    border: 1px solid white;
 }
