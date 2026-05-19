@@ -1,57 +1,25 @@
-/*
-p#unico-1 {
-    background: blue;
-}
-
-.qualquer{
-    color: green;
-}
-
-p {
-    color: red;
-}   */
-/*
-header {
-    border: 1px solid red;
-
-    padding: 60px
-}
-
-h1{
-    border: 1px solid green;
-
-    height: 60px;
-
-    display: inline;
-}
-
-p {
-    margin: 20px;
-
-    border: 1px solid purple;
-
-    display: inline;
-}
-
-span{
-    border: 1px solid pink;
-    display: block;
-} */
-
 body{
-    background: black;
+    /*
+    background-image: url(./assets/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    */
+
+    /*background: color image repaet position/size */
+    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
-h1{
-    border: 1px solid white;
-    background: brown;
+#container {
+    width: 360px;
+    border: 1px solid blue;
+    margin: auto;
 }
 
-p{
-    border: 1px solid white;
-    background: brown;
+#profile {
+    text-align: center;
 }
 
-img{
-    border: 1px solid white;
+#profile img {
+    width: 112px;
 }
