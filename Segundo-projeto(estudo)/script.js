@@ -61,7 +61,7 @@ const criarItemDeAtividade = (atividade) => {
             ${formatar.dia.semana.longo},
             dia ${formatar.dia.numerico}
             de ${formatar.mes} 
-            às ${formatar.hora} </time>
+            às ${formatar.hora}h </time>
     </div>
     `
 }
@@ -83,3 +83,25 @@ const atualizarListaDeAtividades = () => {
 }
 
 atualizarListaDeAtividades();
+
+const salvarAtividade = (event) => {
+    event.preventDefault();
+}
+
+const criarDiasSelecao = () => {
+    const dias = [
+        '2024-02-28',
+        '2024-02-29',
+        '2024-03-01',
+        '2024-03-02',
+        '2024-03-03',
+    ]
+
+    let diasSelecao = ''
+
+
+    document
+    .querySelector('select[name="dia"]')
+    .innerHTML = diasSelecao
+}
+criarDiasSelecao();
