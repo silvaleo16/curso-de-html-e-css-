@@ -5,3 +5,4 @@ botao.forEach(function(button) {
         window.open('https://wa.me/5511931481338?text=Tenho interesse em saber mais sobre o Clio!', '_blank'); 
     });
 });
+
